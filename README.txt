@@ -10,5 +10,5 @@
 
 1. Get a random position in the matrix and check if its empty or else call the function recuresively.
 2. If the selected position is free then check if the ship fits starting from that position (Depending on the direction).
-3. If the ship doesn't fit in step 2 then get all the empty slots along the row. If space available on the row then place or else get empty slots along the column.
+3. If the ship doesn't fit in step 2 then get all the empty slots along the row. If space available on the row then place the ship or else get empty slots along the column.
 4. If step 3 fails then recursively call the function.
